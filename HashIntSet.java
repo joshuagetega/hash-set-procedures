@@ -59,7 +59,7 @@ public boolean equals(Object o) {
                     return false;
                 }
           }
-      return false;
+      return false;
 }
 
 //Accepts another HashIntSet as a parameter
@@ -112,7 +112,7 @@ public int[] toArray() {
 public String toString() {
       String setString = "[";
       int thisLength = this.elementData.length;
-      boolean firstPrinted = false;
+      boolean firstPrinted = false;
       for (int i = 0; i < thisLength; i++) {
             Node current = this.elementData[i];
             while (current != null && !firstPrinted) {
