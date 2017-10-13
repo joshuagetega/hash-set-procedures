@@ -17,7 +17,7 @@ public Boolean containsAll(HashIntSet s2) {
             Node current = s2.elementData[i];
             while (current != null) {
                   if (!(contains(current.data))) {
-                        return false;
+                        return false;
                     }
                   current = current.next;
               }
@@ -49,14 +49,14 @@ public boolean equals(Object o) {
                         Node current = s2.elementData[i];
                         while (current != null) {
                               if (!(contains(current.data))) {
-                                    return false;
+                                    return false;
                                 }
                               current = current.next;
                           }
                     }
                   return true;
               } else {
-                    return false;
+                    return false;
                 }
           }
       return false;
